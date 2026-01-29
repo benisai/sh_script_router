@@ -1,3 +1,4 @@
+#!/bin/sh
 uci add firewall rule
 uci set firewall.@rule[-1].name='Allow-WAN-LuCI'
 uci set firewall.@rule[-1].src='wan'
